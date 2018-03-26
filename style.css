@@ -1,0 +1,82 @@
+body
+{
+text-align: center;
+}
+
+form{
+    margin: auto;
+    margin-top:80px; 
+    width: 310px;
+    background-color: lightblue;
+    box-shadow: 0px 0px 5px 0px;
+}
+h1{
+
+    margin: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+form input[type=button]{
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: rgb(10, 10, 10);
+    
+    color: white;
+    border: 0px;
+    font-size: 140%;
+    width: 25%;
+    padding: 20px;
+    margin: 0px -2px;
+}
+
+form input[name=dispbox]{
+    text-align: right;
+    font-size: 220%;
+    border: 0px;
+    width: 93%;
+    /* margin: 20px 0px 0px 0px; */
+    padding: 20px 10px;
+}
+form input[name=result]{
+    text-align: left;
+    font-size: 180%;
+    border: 0px;
+    width: 93%;
+    padding: 20px 10px;
+}
+
+form input[type=button]:hover
+{
+background-color: rgb(19, 19, 19);
+transition: 0.3s;
+}
+
+form input[name=btnclr]:hover
+{
+        background-color: rgba(255, 0, 0, 0.685);
+}
+
+form input[name=btneq]:hover
+{
+        background-color:rgba(44, 44, 255, 0.911);
+}
+
+form input[name=btnclr]:active
+{
+        background-color: rgb(255, 0, 0);
+}
+
+form input[name=btneq]:active
+{
+        background-color:rgb(14, 14, 255);
+}
+
+.displaybox{
+    font-size: 300%;
+}
+
+h4{
+    margin: 2px;
+}
+h4 a{
+    color: black;
+}
